@@ -2,6 +2,14 @@
 
 Este script automatiza el proceso de habilitar el módulo de cámara en una Raspberry Pi 4 que ejecuta el sistema operativo Raspbian. También incluye pasos para actualizar el BIOS y modificar el archivo de configuración para un uso óptimo de la cámara.
 
+Probado en:
+
+Raspberry Pi OS with desktop
+Release date: March 15th 2024
+System: 64-bit
+Kernel version: 6.6
+Debian version: 12 (bookworm)
+
 ## Uso
 
 Sigue estos pasos para ejecutar el script en tu Raspberry Pi:
