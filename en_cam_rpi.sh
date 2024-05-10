@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# Update package lists
+echo "Updating package lists..."
+sudo apt update
+
+# Upgrade installed packages
+echo "Upgrading installed packages..."
+sudo apt upgrade -y
+
 # Upgrade BIOS
 echo "Upgrading BIOS..."
 sudo rpi-update
