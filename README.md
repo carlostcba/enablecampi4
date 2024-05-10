@@ -38,7 +38,7 @@ Sigue estos pasos para ejecutar el script en tu Raspberry Pi:
     ```bash
     libcamera-hello -t 0
     ```
-    Esto ejecutará el comando `libcamera-hello` con el parámetro `-t 0`, que toma una foto y la muestra en pantalla.
+    Esto ejecutará el comando `libcamera-hello` con el parámetro `-t 0`, que inicia la vista en vivo y la muestra en pantalla.
 
 ## Nota Importante
 
