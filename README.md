@@ -29,8 +29,15 @@ Sigue estos pasos para ejecutar el script en tu Raspberry Pi:
 5. **Seguir las Indicaciones en Pantalla:**
     El script te guiará a través del proceso, actualizando los paquetes del sistema, actualizando el BIOS, habilitando el módulo de cámara y modificando el archivo de configuración según corresponda.
 
-6. **Reiniciar tu Raspberry Pi:**
-    Después de que el script haya finalizado, reinicia tu Raspberry Pi para que los cambios surtan efecto.
+6. **Probar la Cámara:**
+    Después de que el script haya finalizado, puedes probar la cámara utilizando comandos como `libcamera-hello`:
+    ```bash
+    libcamera-hello -t 0
+    ```
+    Esto ejecutará el comando `libcamera-hello` con el parámetro `-t 0`, que toma una foto y la muestra en pantalla.
+
+7. **Reiniciar tu Raspberry Pi:**
+    Después de probar la cámara, reinicia tu Raspberry Pi para que los cambios surtan efecto.
 
 ## Nota Importante
 
